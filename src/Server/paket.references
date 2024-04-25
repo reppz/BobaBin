@@ -1,0 +1,9 @@
+group Server
+    FSharp.Core
+    Giraffe
+    Fable.Remoting.Giraffe
+    Serilog.Sinks.ApplicationInsights
+    Serilog.Sinks.Console
+    Destructurama.FSharp
+    Serilog.Sinks.File
+    Thoth.Json.Net

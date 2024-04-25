@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\Shared.fsproj">
+      <Name>Shared.fsproj</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="index.html" />
+    <None Include="paket.references" />
+    <None Include="style.scss" />
+    <Compile Include="Version.fs" />
+    <Compile Include="Three.fs" />
+    <Compile Include="TrackballControls.fs" />
+    <Compile Include="Dat.fs" />
+    <Compile Include="CanvasRenderer.fs" />
+    <Compile Include="Client.fs" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>
