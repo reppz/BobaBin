@@ -1,6 +1,6 @@
-# BinDrake
+# BobaBin
 
-BinDrake is a 3D bin packer application written in F#: [Live sample](https://bindrake.com/) 
+BobaBin is a 3D bin packer application written in F#, cloned from Bindrake: [Live sample](https://bindrake.com/) 
 
 <img src="https://bindrake.com/favicon.png"></img>
 ## Install pre-requisites
